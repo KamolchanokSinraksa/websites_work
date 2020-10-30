@@ -6,6 +6,7 @@
     <body>
         </h1>แนะนำตัว</h1>
         <p>ชื่อ-นามสกุล:นางสาวกมลชนก สินรักษา ชื่อเล่น:สุ่ย</p>
+        <p>ชื่อเล่น:สุ่ย</p>
         <img src="cat.jpg"><img src="forest.jpg">
         <br>
         <a href="https://www.youtube.com">My favourite website</a>
