@@ -6,8 +6,7 @@
     <body>
         </h1>กมลชนก สินรักษา</h1>
         <p>สุ่ย</p>
-        <img src="cat.jpg">
-        <img src="forest.jpg">
+        <img src="cat.jpg"><img src="forest.jpg">
         <br>
         <a href="https://www.youtube.com">My favourite website</a>
 
