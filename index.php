@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wide=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The City of Chicago</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="img/life/life8.jpg" class="img-rounded">
+                <h1>Chicago</h1>
+                <p>The City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States. With an estimated population of 2,693,976 in 2019, it is also the most populous city in the Midwestern United States. Chicago is the county seat of Cook County, the second-most-populous county in the US, with a small portion of the northwest side of the city extending into DuPage County near O'Hare Airport. Chicago is the principal city of the Chicago metropolitan area, often referred to as Chicagoland. At nearly 10 million people, the metropolitan area is the third most populous in the United States.
+                Located on the shores of freshwater Lake Michigan, Chicago was incorporated as a city in 1837 near a portage between the Great Lakes and the Mississippi River watershed and grew rapidly in the mid-19th century.[8] After the Great Chicago Fire of 1871, which destroyed several square miles and left more than 100,000 homeless, the city made a concerted effort to rebuild.[9] The construction boom accelerated population growth throughout the following decades, and by 1900, less than 30 years after the great fire, Chicago was the fifth-largest city in the world.[10] Chicago made noted contributions to urban planning and zoning standards, including new construction styles (including the Chicago School of architecture), the development of the City Beautiful Movement, and the steel-framed skyscraper.[11][12]
+                Chicago is an international hub for finance, culture, commerce, industry, education, technology, telecommunications, and transportation. It is the site of the creation of the first standardized futures contracts, issued by the Chicago Board of Trade, which today is part of the largest and most diverse derivatives market in the world, generating 20% of all volume in commodities and financial futures alone.[13] O'Hare International Airport is routinely ranked among the world's top six busiest airports according to tracked data by the Airports Council International.[14] The region also has the largest number of federal highways and is the nation's railroad hub.[15] The Chicago area has one of the highest gross domestic products (GDP) in the world, generating $689 billion in 2018.[16] The economy of Chicago is diverse, with no single industry employing more than 14% of the workforce.[17] Chicago is home to several Fortune 500 companies, including Allstate, Boeing, Caterpillar, Exelon, Kraft Heinz, McDonald's, Mondelez International, Sears, United Airlines Holdings, US Foods, and Walgreens.
+                Chicago's 58 million tourist visitors in 2018 set a new record,[18][19] and Chicago has been voted the best large city in the U.S. for four years in a row by Condé Nast Traveler.[20] The city was ranked first in the 2018 Time Out City Life Index, a global urban quality of life survey of 15,000 people in 32 cities.[21][22][23][24][25] Landmarks in the city include Millennium Park, Navy Pier, the Magnificent Mile, the Art Institute of Chicago, Museum Campus, the Willis (Sears) Tower, Grant Park, the Museum of Science and Industry, and Lincoln Park Zoo. Chicago's culture includes the visual arts, literature, film, theatre, comedy (especially improvisational comedy), food, and music, particularly jazz, blues, soul, hip-hop, gospel,[26] and electronic dance music including house music. Of the area's many colleges and universities, the University of Chicago, Northwestern University, and the University of Illinois at Chicago are classified as "highest research" doctoral universities. Chicago has professional sports teams in each of the major professional leagues, including two Major League Baseball teams. </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img src="img/life/life4.jpg" class="img-fluid rounded" />
+                <h1>Transport</h1>
+                <p>Chicago, Illinois is the third-largest city in the United States and a major transportation hub for the Midwest. The city is served by two major airports, and is the main freight rail hub of North America. </p>
+                <img src="img/creative/creative2.jpg" class="img-fluid img-thumbnail" />
+                <h1>Coffee Shop</h1>
+                <p>Chicago features some serious coffee shops, with roasters setting up cafes to bring the city fresh cups of coffee that put cheap diner coffee to shame. But roasters aren’t the only ones having fun. Coffee pros are finding space to showcase their drink-making skills at these 20 essential shops.</p>
+                <img src="img/staffs/staff10.jpg" class="img-fluid img-thumbnail" />
+                <h1>People</h1>
+                <p>The most important fact about Chicago’s population is its historic and rich diversity. Early Chicago was inhabited by the Sauk (or Sac), Fox, and Potawatomi peoples, and the first permanent nonnative resident, Jean-Baptist-Point Du Sable (or DuSable), was of French-African heritage by way of the West Indies. French Canadian traders mixed with settlers from New England and the Middle Atlantic states. Irish, German, and Scandinavian immigrants began to pour in during the 1840s. </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img src="img/creative/creative3.jpg" class="img-fluid rounded" />
+                <h1>Chicago at night</h1>
+                <p>Chicago gets a ton of great concerts. That’s one of the reasons I moved there, in fact. I’ve gotten to see legends like Paul McCartney, Prince, Leonard Cohen, Aretha Franklin, Tony Bennett, Madonna, and more.
+                The city has some famous old venues, from the venerable Chicago Theatre to smaller clubs like the Empty Bottle. Do a Pollstar.com search for “Chicago” to check out the concerts on the dates of your visit.
+                Sports are always an option. Check out a Cubs game at Wrigley Field if you can snag a ticket. White Sox tix are easier to come by, and the view of the Chicago skyline from the Sox’ park is fantastic. If you’re here during the winter, take in a Bulls and Blackhawks game. </p>
+                <img src="img/work/work4.jpg" class="img-fluid rounded" />
+                <h1>Work Place</h1>
+                <p>Information technology, health care, financial services—and a school district. This year’s list of best companies to work for in Chicago contains quite a variety of workplaces, from large companies to small and medium-sized companies alike, due to employee feedback analyzed by Fortune research partner Great Place to Work. Take a look at the list below and learn more about the methodology here. </p>
+            </div>
+        </div> <!-- Close Row 1 -->>
+    </div> <!-- Close container -->
+</head>
+<body>
+    
+</body>
+</html>
