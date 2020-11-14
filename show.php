@@ -9,7 +9,7 @@
             margin: 5%;
             color:white;
         }
-        form {
+        .form {
             background-color: white;
             width: 23%;
             border-radius: 8px;
