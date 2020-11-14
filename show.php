@@ -89,8 +89,10 @@ while($Result = mysqli_fetch_array($res))
         <td><?php echo $Result['Comment'];?></td>
         <td><?php echo $Result['Link'];?></td>
         <td>
-            <button class="edit" type="submit" name="edit" value="<?php $Result['ID'];?>">แก้ไข</button>
-            <button class="del" type="submit" name="del" value="<?php $Result['ID'];?>">ลบออก</button>
+            <form  action="" method="post">
+                <button class="edit" type="submit" name="edit" value="<?php $Result['ID'];?>">แก้ไข</button>
+                <button class="del" type="submit" name="del" value="<?php $Result['ID'];?>">ลบออก</button>
+            </form>
         </td>
   </tr>
 <?php
