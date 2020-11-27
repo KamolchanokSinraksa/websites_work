@@ -63,11 +63,11 @@ if (mysqli_connect_errno($conn))
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
-$name = $_POST['name'];
-$comment = $_POST['comment'];
-$link = $_POST['link'];
+$name = $_POST['name']; 
+$height = $_POST['height'];
+$weight = $_POST['weight'];
 if(isset($name)){
-    $sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment', '$link')";
+    $sql = "INSERT INTO testbook (name, height, weight) VALUES ('$name', '$height', '$weight')";
 }
 
 mysqli_close($conn);
