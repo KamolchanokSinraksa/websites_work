@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Comment Form</title>
+	<title>Form</title>
 </head>
-<body>
-  <form action = "insert.php" method = "post" id="CommentForm" >
-    Name:<br>
-    <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
-    Comment:<br>
-    <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>  
-    Link:<br>
-    <input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
-    <input type="submit" id="commentBtn">
-  </form> 
+<body class="bg-light py-5">
+	<div class="container text-dark">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<div class="card shadow">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6"><h1 class="text-monospace">Form</h1></div>
+						</div>
+						<form action="insertnew.php" method="post">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" name="name" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<label>Height</label>
+								<textarea name="height" class="form-control" rows="5" required></textarea>
+							</div>
+							<div class="form-group">
+								<label>Weight</label>
+								<textarea name="weight" class="form-control" rows="5" required></textarea>
+							</div>
+							<div class="text-center">
+								<button type="submit" class="btn btn-sm btn-success my-3 font-weight-bold">Submit</button>
+								<a class="btn btn-sm btn-danger my-3" href="shownew.php">Cancel</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
