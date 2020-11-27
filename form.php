@@ -43,11 +43,11 @@
         <form action="" method="post" id="CommentForm" >
             <div style="opacity:0%;">.</div>
             Name:<br>
-                <input class="in" type="text" name = "name" id="idName" placeholder="Enter Name"><br>
+                <input class="in" type="text" name = "name" id="idname" placeholder="Enter name"><br>
             Comment:<br>
-            <textarea class="in"rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>
+            <textarea class="in"rows="10" cols="20" name = "height" id="idheight" placeholder="Enter height"></textarea><br>
             Link:<br>
-            <input class="in" type="text" name = "link" id="idLink" placeholder="Enter Link"><br><br>
+            <input class="in" type="text" name = "weight" id="idweight" placeholder="Enter weight"><br><br>
             <input class="btn" type="submit" id="commentBtn">
             <div style="opacity:0%;">.</div>
         </form>
