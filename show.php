@@ -29,7 +29,7 @@ while($Result = mysqli_fetch_array($res))
         <td><?php echo $Result['weight'];?></td>
         <td><?php echo $Result['height'];?></td>
         <td><?php echo $Result['bmi'];?></td>
-        <td><a href="delete.php?ID=<?php echo $Result['ID'];?>" class="btn btn-warning mb-2 mb-md-0">update</a></td>
+        <td><a href="edit.php?ID=<?php echo $Result['ID'];?>" class="btn btn-warning mb-2 mb-md-0">update</a></td>
             <form  action="" method="post">
                 <button class="edit" type="submit" name="edit" value="<?php $Result['ID'];?>">update</button>
             </form>
