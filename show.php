@@ -31,7 +31,7 @@ while($Result = mysqli_fetch_array($res))
         <td><?php echo $Result['bmi'];?></td>
         <td>
             <form  action="" method="post">
-                <button class="edit" type="submit" name="edit" value="<?php $Result['ID'];?>">แก้ไข</button> <button class="del" type="submit" name="del" value="<?php $Result['ID'];?>">ลบออก</button>
+                <button class="edit" type="submit" name="edit" value="<?php $Result['ID'];?>">update</button>
             </form>
         </td>
   </tr>
