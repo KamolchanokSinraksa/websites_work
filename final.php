@@ -90,7 +90,7 @@ session_start();/* กรณีเริ่มการทำ session (ชั้
 <?php
         if(isset($_SESSION["id"])){/*ถ้าในตัวที่อยู่ใน isset ถูกตั้งเอาไว้ก็จะเป็น True*/
             //edittttttt <---------------------------------------------
-            $editt = "SELECT * FROM guestbook WHERE ID='".$_SESSION["id"]."'";
+            $editt = "SELECT * FROM bmi WHERE ID='".$_SESSION["id"]."'";
             $res = mysqli_query($conn, $editt);
             $Reedit = mysqli_fetch_array($res)
             ?>
@@ -98,9 +98,11 @@ session_start();/* กรณีเริ่มการทำ session (ชั้
             <form class="form" action="" method="post">
                 <div style="opacity:0%;">.</div>
                 Name:<br>
-                    <input class="in" type="text" name = "ename" id="idName" placeholder="Enter Name" value="<?php echo $Reedit['Name'];?>"><br>
-                Comment:<br>
-                <textarea class="in"rows="10" cols="20" name = "ecomment" id="idComment" placeholder="Enter Comment"><?php echo $Reedit['Comment'];?></textarea><br><br>
+                    <input class="in" type="text" name = "ename" id="idname" placeholder="Enter Name" value="<?php echo $Reedit['name'];?>"><br>
+                Weight:<br>
+		    <input class="in" type="text" name = "ename" id="idheight" placeholder="Enter your weight" value="<?php echo $Reedit['weight'];?>"><br>
+                Height:<br>
+		    <input class="in" type="text" name = "ename" id="idweight" placeholder="Enter your height" value="<?php echo $Reedit['height'];?>"><br>
                 <button class="btn" type="submit" name="editBtn">Submit</button><br><br>
                 <div style="opacity:0%;">.</div>
             </form><!-- เป็นการ edit ค่า โดยวิธีการก็คือมันจะไปหาตำแหน่งค่าที่เราต้องการแก้ เมื่อเสร็จแล้วมันก็จะทำการล็อกเฉพาะตำแหน่งตรงนั้นและแก้ตำแหน่งตรงนั้น จากนั้นส่งค่าคืน -->
@@ -116,12 +118,14 @@ session_start();/* กรณีเริ่มการทำ session (ชั้
         ?>
         <table style="border-radius:10px;" width="60%" border="1">
           <tr>
-            <th width="100"> <div align="center">Name</div></th>
-            <th width="350"> <div align="center">Comment </div></th>
-            <th width="150"> <div align="center">Action</div></th>
+            <th width="100"> <div align="center">ชื่อ</div></th>
+            <th width="350"> <div align="center">น้ำหนัก </div></th>
+            <th width="150"> <div align="center">ส่วนสูง</div></th>
+	    <th width="100"> <div align="center"bmi</div></th>
+            <th width="350"> <div align="center">การจัดการ </div></th>
           </tr>
         <?php
-        $res = mysqli_query($conn, 'SELECT * FROM guestbook');
+        $res = mysqli_query($conn, 'SELECT * FROM bmi');
         while($Result = mysqli_fetch_array($res))
         {
         ?>
