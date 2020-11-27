@@ -9,11 +9,11 @@ if (mysqli_connect_errno($conn))
 
 
 $name = $_POST['name'];
-$comment = $_POST['comment'];
-$link = $_POST['link'];
+$height = $_POST['height'];
+$weight = $_POST['weight'];
 
 
-$sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment', '$link')";
+$sql = "INSERT INTO guestbook (name , height, weight) VALUES ('$name', '$height', '$weight')";
 
 
 if (mysqli_query($conn, $sql)) {
